@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Customer_UI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Admob_app_id">ca-app-pub-8173995983147119~2732181680</string>
+    <string name="Banner_ad_Unit_Id">ca-app-pub-8173995983147119/4766198525</string>
+    <string name="Interstitial_ad_unit_id">ca-app-pub-8173995983147119/5887708507</string>
+    <string-array name="numbers">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Karachi</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+    </string-array>
+
+</resources>

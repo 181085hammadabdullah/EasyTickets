@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile" />
+    </group>
+    <item android:title="Trips">
+        <menu>
+            <item
+                android:id="@+id/nav_bus_trip"
+                android:icon="@drawable/ic_baseline_directions_bus_24"
+                android:title="Bus Trips" />
+
+        </menu>
+    </item>
+    <item android:title="Tickets">
+        <menu>
+            <item
+                android:id="@+id/nav_bus_ticket"
+                android:icon="@drawable/ic_baseline_directions_bus_24"
+                android:title="Bus Tickets" />
+
+        </menu>
+    </item>
+
+    <item android:title="Profiles">
+        <menu>
+            <item
+                android:id="@+id/nav_agency_profile"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Agency Profiles" />
+            <item
+                android:id="@+id/nav_customer_profile"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Customer Profiles" />
+        </menu>
+    </item>
+</menu>
